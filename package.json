@@ -1,0 +1,28 @@
+{
+  "name": "altair_instance_storage_namespace_bug_repro",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "tsup src/index.ts --watch --onSuccess \"node dist/index.js\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PabloSzx/altair_instance_storage_namespace_bug_repro.git"
+  },
+  "author": "PabloSzx <pablosaez1995@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/PabloSzx/altair_instance_storage_namespace_bug_repro/issues"
+  },
+  "homepage": "https://github.com/PabloSzx/altair_instance_storage_namespace_bug_repro#readme",
+  "dependencies": {
+    "@graphql-ez/fastify": "^0.6.1",
+    "@graphql-ez/plugin-altair": "^0.3.3",
+    "@graphql-ez/plugin-schema": "^0.1.0",
+    "fastify": "^3.19.0",
+    "graphql": "^15.5.1",
+    "graphql-ez": "^0.7.0"
+  },
+  "devDependencies": {
+    "tsup": "^4.12.5"
+  }
+}
