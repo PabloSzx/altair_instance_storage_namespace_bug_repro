@@ -6,7 +6,7 @@ pnpm i
 pnpm start
 ```
 
-Then you can go to `http://localhost:8020/altair`
+Then you can go to [`http://localhost:8020/altair`](http://localhost:8020/altair)
 
 Then, in the code, uncomment the line `instanceStorageNamespace: "other"`:
 
